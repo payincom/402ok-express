@@ -1,0 +1,33 @@
+{
+  "name": "402ok-express",
+  "version": "0.1.0",
+  "description": "Express middleware for HTTP 402 Payment Required with support for multiple networks including OKX/XLayer",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "http-402",
+    "payment",
+    "express",
+    "middleware",
+    "x402",
+    "okx",
+    "xlayer",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "express": "^5.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}
